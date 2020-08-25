@@ -59,7 +59,7 @@ class BasePage():
 				until_not(EC.presence_of_element_located((how, what)))
 		except TimeoutException:
 			return False
-
+			
 		return True
 
 	# реализация подсчета задачи на странице с товаром для получения промо-кода
